@@ -1,2 +1,2 @@
 # resume
-# This is a simple portfolio website.
+## This is a simple portfolio website.
