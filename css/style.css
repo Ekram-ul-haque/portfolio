@@ -7,11 +7,17 @@ html {
     scroll-behavior: smooth;
 }
 /* navigation bar below */
+
+.front {
+    /* background: linear-gradient(to bottom right, turquoise, rgb(45, 82, 194)); */
+    background: linear-gradient(to right, aqua, violet);
+    height: 750px;
+}
 .navbar {
     display: flex;
     width: 100%;
-    background-color: turquoise;
-    position: sticky;
+    background: linear-gradient(to right, aqua, violet);
+    /* position: sticky; */
     top: 0; /* important to make position sticky*/
 }
 
@@ -29,7 +35,7 @@ html {
 .nav-list li a {
     text-decoration: none;
     color: black;
-    font-size: larger;
+    font-size: large;
     font-weight: bold;
 }
 
@@ -38,8 +44,8 @@ html {
 }
 
 .logo img{
-    width: 23%;
-    margin-top: 5px;
+    width: 21%;
+    margin-top: 10px;
     margin-left: 15px;
     border: solid white 2px;
     border-radius: 50%;
@@ -58,7 +64,7 @@ html {
     background-color: white;
     width: 20px;
     height: 3px;
-    margin: 4px 2px;
+    margin: 5px 2px;
     border-radius: 1px;
 }
 
@@ -66,19 +72,18 @@ html {
 
 .banner {
     display: flex;
-    background-color: peachpuff;
-    margin: 150px;
+    margin-top: 3%;
 }
 
 .photo {
-    width: 40%;
-    margin: 30px;
+    width: 50%;
+    margin: 30px 0px;
 }
 
 .photo img {
     margin: 0px 40px;
     border: solid white 4px;
-    border-radius: 20%;
+    border-radius: 50%;
 }
 
 .link-logo {
@@ -89,43 +94,33 @@ html {
 .link-logo img {
     width: 29%;
     border: solid white 2px;
-    border-radius: 20%;
+    border-radius: 40%;
     display: flex;
-    
 }
 
 .about {
-    width: 60%;
-    margin: auto;
+    width: 50%;
+    margin-top: 150px;
+    margin-left: 250px;
 }
 
 .text-big {
     font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 12px 0px;
-    color: maroon;
+    color: white;
 }
 
 .text-small {
     font-size: 25px;
     font-weight: bolder;
-    color: maroon;
+    color: white;
 }
 .details {
     list-style: none;
     margin: 17px 0px;
 }
-.details a{
-    /* includes email and number */
-    text-decoration: none;
-    color: crimson;
-    font-weight: bold;
-    
-}
 
-.details a:hover {
-    color: maroon;
-}
 
 /* another section below */
 .content {
@@ -154,7 +149,7 @@ html {
 .head img{
     width: 55%;
     margin: auto;
-    border: solid wheat 4px;
+    border: solid white 4px;
     border-radius: 20%;
 }
 
@@ -190,7 +185,7 @@ html {
 }
 
 .footer {
-    background-color: turquoise;
+    background-color: cadetblue;
     height: 35px;
     text-align: center;
     padding: 10px;
