@@ -105,7 +105,7 @@ html {
 }
 
 .text-big {
-    font-size: 35px;
+    font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 12px 0px;
     color: white;
@@ -118,7 +118,7 @@ html {
 }
 .details {
     list-style: none;
-    margin: 17px 0px;
+    margin: 27px 0px;
 }
 
 
@@ -128,11 +128,20 @@ html {
     background-color: lightblue;
     display: flex;
     padding: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 25px 2px gainsboro;
+    transform: translateY(200px);
+    transition: transform 0.5s ease;
+}
+
+.show {
+    transform: translateY(0);
 }
 
 .head {
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 .head h2 {
     display: inline;
@@ -147,10 +156,12 @@ html {
 }
 
 .head img{
-    width: 55%;
+    width: 100px;
+    background-color: white;
     margin: auto;
     border: solid white 4px;
     border-radius: 20%;
+    margin-top: 10px;
 }
 
 .content-in {

@@ -13,7 +13,7 @@
     }
 
     .navbar {
-        height: 400px;
+        height: 475px;
         flex-direction: column;
         transition: all 0.4s ease-out;
         position: relative; /* absolute brings in on top of banner  */
@@ -26,7 +26,7 @@
     }
 
     .front {
-        height: 1000px;
+        height: 1075px;
     }
 
     .expand-navbar {
@@ -45,6 +45,14 @@
         flex-direction: column;
         align-items: center;
         margin: 50px;
+    }
+
+    .list-item {
+        margin: 20px;
+    }
+
+    .list-item li {
+        margin: 5px;
     }
 
     .banner {
@@ -82,5 +90,12 @@
     .details a{
         display: flex;
         justify-content: center;
+    }
+}
+
+@media (max-width: 350px) {
+    .content {
+        margin: 25px 15px;
+        border-radius: 4px;
     }
 }
