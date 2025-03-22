@@ -10,13 +10,15 @@ html {
 
 .front {
     /* background: linear-gradient(to bottom right, turquoise, rgb(45, 82, 194)); */
-    background: linear-gradient(to right, aqua, violet);
+    background: linear-gradient(to right, gray, rgb(78, 213, 213));
+    /* background: linear-gradient(to right, aqua, violet); */
     height: 750px;
 }
 .navbar {
     display: flex;
     width: 100%;
-    background: linear-gradient(to right, aqua, violet);
+    background: linear-gradient(to right, gray, rgb(65, 191, 191));
+    /* background: linear-gradient(to right, rgb(78, 213, 213), rgb(240, 172, 240), rgb(209, 16, 209)); */
     /* position: sticky; */
     top: 0; /* important to make position sticky*/
 }
@@ -105,7 +107,7 @@ html {
 }
 
 .text-big {
-    font-size: 40px;
+    font-size: 35px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 12px 0px;
     color: white;
@@ -121,7 +123,6 @@ html {
     margin: 27px 0px;
 }
 
-
 /* another section below */
 .content {
     margin: 150px;
@@ -130,8 +131,8 @@ html {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 3px 3px 25px 2px gainsboro;
-    transform: translateY(200px);
-    transition: transform 0.5s ease;
+    transform: translateY(80px);
+    transition: transform 0.9s ease;
 }
 
 .show {
@@ -165,7 +166,7 @@ html {
 }
 
 .content-in {
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 
@@ -176,19 +177,22 @@ html {
 }
 
 .list-item li {
-    margin: 20px;
-    padding: 22px 10px;
+    margin: 10px;
+    padding: 15px 10px;
     text-align: center;
+    border: solid white 2px;
+    border-radius: 10px;
 }
 
 .list-item h3{
     margin: 15px 8px;
     padding: 8px 24px;
     font-size: 18px;
-    border: solid cadetblue 2px;
-    border-radius: 10px;
-    color: white;
-    background: cadetblue;
+    color: rgb(45, 82, 194);
+    /* border: solid cadetblue 2px; */
+    /* border-radius: 10px; */
+    /* color: white; */
+    /* background: cadetblue; */
 }
 
 .list-item p {
