@@ -10,14 +10,15 @@ html {
 
 .front {
     /* background: linear-gradient(to bottom right, turquoise, rgb(45, 82, 194)); */
-    background: linear-gradient(to right, gray, rgb(78, 213, 213));
+    /* background: linear-gradient(to right, gray, rgb(78, 213, 213)); */
     /* background: linear-gradient(to right, aqua, violet); */
+    background: linear-gradient(to right, #87A2FF, #A1D6B2);
     height: 750px;
 }
 .navbar {
     display: flex;
     width: 100%;
-    background: linear-gradient(to right, gray, rgb(65, 191, 191));
+    background: linear-gradient(to right, #6C82CC, #95D2B3); /* #95D2B3 81AB8E */
     /* background: linear-gradient(to right, rgb(78, 213, 213), rgb(240, 172, 240), rgb(209, 16, 209)); */
     /* position: sticky; */
     top: 0; /* important to make position sticky*/
@@ -30,7 +31,7 @@ html {
 
 .nav-list li {
     list-style: none;
-    padding: 24px 30px;
+    padding: 10px 30px;
     margin: auto;
 }
 
@@ -42,12 +43,13 @@ html {
 }
 
 .nav-list li a:hover {
+    text-shadow: gray 2px 2px 2px;
     color: lightyellow;
 }
 
 .logo img{
     width: 21%;
-    margin-top: 10px;
+    margin-top: 4px;
     margin-left: 15px;
     border: solid white 2px;
     border-radius: 50%;
@@ -200,11 +202,17 @@ html {
 }
 
 .footer {
-    background-color: cadetblue;
+    background: linear-gradient(to right, #6C82CC, #95D2B3); 
+    /* background-color: cadetblue; */
     height: 35px;
     text-align: center;
     padding: 10px;
     font-weight: bold;
+    color: lightyellow;
+}
+
+.footer div{
+    margin: 5px 0px;
 }
 
 /* #skills .list-item {
